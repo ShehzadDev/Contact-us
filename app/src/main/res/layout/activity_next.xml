@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".NextActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Center for Peace and Spirtuality"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="24dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Get in touch with us"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Title"
+        android:layout_marginHorizontal="10dp"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Please write your message"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:text="Send" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="16dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_whatsapp_24"
+        android:drawableRight="@drawable/baseline_arrow_right_24"
+        android:text="WHATSAPP (+92)PK"
+        android:layout_marginTop="16dp"
+        android:background="@color/light_green"
+        android:textColor="@android:color/white"
+        android:paddingLeft="30dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_whatsapp_24"
+        android:drawableRight="@drawable/baseline_arrow_right_24"
+        android:text="WHATSAPP (+1)USA"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:paddingLeft="30dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/baseline_web_24"
+        android:drawableRight="@drawable/baseline_arrow_right_24"
+        android:text="GOODWORD BOOKS"
+        android:background="@color/light_red"
+        android:textColor="@android:color/white"
+        android:paddingLeft="30dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_web_24"
+        android:drawableRight="@drawable/baseline_arrow_right_24"
+        android:text="VISIT OUR WEBSITE"
+        android:layout_marginTop="16dp"
+        android:background="@color/sky_blue"
+        android:textColor="@android:color/white"
+        android:paddingLeft="30dp"/>
+
+
+
+</LinearLayout>
