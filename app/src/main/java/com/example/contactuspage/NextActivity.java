@@ -73,7 +73,7 @@ public class NextActivity extends Activity {
         whatsappButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uri = Uri.parse("https://wa.me/923166974919"); // Replace with the recipient's phone number
+                Uri uri = Uri.parse("https://wa.me/123456789"); // Replace with the recipient's phone number
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }
